@@ -1,0 +1,20 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Removed deprecated tags and made some changes as per WordPress guidelines.
+
+Version 1.2
+i) Screenshot changed, added translation functions,  removed unused functons and made some changes as per reviewers instructions.
+
+Version 1.2.1
+i) Resolve menu fallback issue and escape output of theme options.
+
+Version 1.2.2
+i) added escape functions properly and made some changes as asked by reviewer.
+
+Version 1.2.3
+i) added escape funcitons in header.php file.
+
+Version 1.2.4
+i) Hide demo content and removed unused file.

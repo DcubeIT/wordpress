@@ -1,0 +1,336 @@
+/*
+Theme Name: Gymfitness
+Theme URI:
+Author: mathewjohn
+Author URI:
+Description: GymFitness is a child theme of vw-fitness, It is a multipurpose WordPress theme, designed particularly for fitness websites, fitness studios, gyms, fitness trainers, weight loss enthusiasts, health clubs, physiotherapy, wellness, workout, lifestyle, boot-camps, spa, beautiplus, aerobics, boxing, consultancy, sports websites as well as other local businesses. While designing this theme, special emphasis was given to its quality and features such as user-friendliness, responsiveness, social media integration, etc. The Appointment form section is the latest functionality added in this theme. This section enables the users to make an appointment with the respective fitness firm in advance so that there is no hassle later on in taking the fitness services. It has an amazing testimonial section and banners with eye-catching Call to Action Button (CTA) which strikes the user to make a purchase decision. This theme stores ample of personalization options and has secure and clean code which adds to faster page load time. The interactive GymFitness theme supports the different social media platforms, thereby making your team reach a wider audience. Furthermore, it’s an SEO friendly theme. It’s built on Bootstrap and features ample of shortcodes. Take away such a beautiful, stunning and feature-rich WordPress theme to make your fitness business thrive!
+Template:  vw-fitness
+Version: 0.2
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: gymfitness
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, front-page-post-form, theme-options, threaded-comments, translation-ready, rtl-language-support, blog, food-and-drink, e-commerce, portfolio
+*/
+
+/* Add your custom css below */
+section h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 45px;
+  padding: 0;
+  text-transform: uppercase;
+}
+section{
+  background-size: 100% 100%;
+  padding: 4.5em 0;
+}
+/* -------------header ------------- */
+.logo{
+  margin:0;
+  padding: 18px 0;
+  text-align: center;
+}
+.logo h1{ 
+  font-weight:700;
+  text-transform:uppercase;
+  padding:0;
+  margin-bottom:8px;
+  font-size:30px;
+  font-weight:bold;
+  margin-top: 0;
+}
+.logo a{ 
+  color:#000;
+  font-family:'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+#header {
+    background: #ec3642;
+    float: left;
+    width: 100%;
+}
+#header .nav ul,#header .nav{
+  float: none;
+  text-align: center;
+}
+#sidebar input[type="submit"],#sidebar h3,#comments input[type="submit"].submit{
+  background: #ec3642 !important;
+}
+#sidebar h3 {
+  background: #ec3642 !important;
+  border-left: 21px solid #19191e;
+  border-top-left-radius: 0;
+  border-top-right-radius: 47%;
+  border-bottom-right-radius: 47%;
+  border-bottom-left-radius: 0;
+  text-align: left;
+}
+#sidebar aside {
+  background: #fff;
+  border:none;
+}
+#blog_fit {
+  padding-top: 0;
+}
+.copyright-wrapper {
+  background: #19191e;
+  border-top: 4px solid #ec3642;
+}
+h1.page-title, h1.entry-title {
+  background: #ec3642;
+  color: #fff;
+}
+.page-box h4 a {
+  color: #ec3642;
+}
+#mainpostbox .page-box {
+  box-shadow: 0 0 10px 4px rgb(148, 150, 146);
+}
+#header .nav ul, #header .nav {	
+	text-align: right;
+}
+#header .nav {
+    margin: 25px 0 0 0;
+}
+#slider .slide-cap a.read-more,section#aboutus,.service-main-box{
+  background: #ec3642;
+  color: #fff;
+}
+#comments a.comment-reply-link:hover {
+  background: #ec3642;
+  color: #fff;
+}
+.nivo-directionNav a {
+    background: url(./images/slide-navg.png) no-repeat scroll 0 0 !important;
+}
+#sidebar ul li {
+  background: url(images/bullets-sidebars.png) no-repeat scroll 0 2px;
+}
+.footersec {
+  background: #19191e;
+}
+.footersec ul li {
+  list-style: initial;
+  color:#fff;
+}
+.nivo-controlNav a.active{
+  background-color: #ec3642;
+}
+.service-main-box img{
+  width:auto;
+}
+.footersec h3{color: #ec3642;}
+/* --------WordPress Core Css----------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+        white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.sticky {
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+}
+.bypostauthor{
+    background-color: #4d535f;
+    color: white;
+}
+.gallery-caption {}
+/* --------WordPress Core Css End----------- */
+
+/*--------------------------- Pricing Plans --------------------------*/
+#pricing_plans{
+  color:#1a1a1a;
+  padding: 1%;
+}
+
+#pricing_plans h2 {
+  margin: 0 0 100px;
+  text-align: center;
+} 
+
+#pricing_plans .price-box{
+  background:#f5f5f5;
+  border:2px solid #e1e1e1;
+  text-align:center; 
+  padding:0 0 20px;
+}
+
+#pricing_plans .price-box:hover{
+  background:#ec3642;
+  cursor:pointer;
+}
+
+#pricing_plans .price-box:hover .price-number{
+  color:#fff;
+  background:#1a1a1a;
+}
+
+#pricing_plans .price-number {
+  width: 100px;
+  height: 100px;
+  background: #ec3642;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 25px 0 0 0;
+  margin: -55px auto 0;
+  position: absolute;
+  left: 34%;
+}
+
+#pricing_plans .price-title{
+  font-size:36px;
+  margin:65px 0 25px;
+}
+
+#pricing_plans p{
+  font-size:15px;
+  padding:7px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+#pricing_plans ul{
+  margin:0;
+  padding:0;
+}
+
+#pricing_plans a.r_button {
+  background: #ec3642;
+  border-radius: 10px !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+#pricing_plans a.r_button:hover{
+  background: #1a1a1a;
+  color: #fff;
+}
+.box-content {
+  margin-bottom: 10%;
+}
+/* -------Pricing Plan End---------- */
+
+/* pagination */
+.pagination span, .pagination a {
+    background: transparent;
+    border: solid 1px #000;
+    margin-left: 3px;
+    color: #000;
+}
+.pagination .current{
+    background: #ec3642;
+    font-weight: bold; 
+}
+.pagination a:hover{
+    color: #000;
+    background: #ec3642;
+}
+
+@media screen and (min-width:720px){
+	.logo{
+		float:none;
+		margin-top:8px;
+	}
+	#header .nav ul {
+    	margin: 8px 0;
+	}
+  #pricing_plans .price-box {
+    margin-bottom: 25% !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+  #pricing_plans .price-box {
+    margin-bottom: 25% !important;
+  }
+}
